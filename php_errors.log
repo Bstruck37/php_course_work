@@ -71,3 +71,12 @@
 [20-Sep-2015 19:41:37 UTC] PHP Parse error:  syntax error, unexpected 'localhost' (T_STRING) in /home/ubuntu/workspace/php_course_work/lab_3/removeemail.php on line 12
 [20-Sep-2015 20:31:26 UTC] PHP Parse error:  syntax error, unexpected ''your '' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 8
 [20-Sep-2015 20:32:02 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 8
+[24-Sep-2015 23:04:55 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/php_course_work/lab_4/sendemail.php on line 47
+[24-Sep-2015 23:11:24 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/php_course_work/lab_4/sendemail.php on line 46
+[24-Sep-2015 23:20:07 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/php_course_work/lab_4/sendemail.php on line 47
+[24-Sep-2015 23:33:16 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/php_course_work/lab_4/sendemail.php on line 78
+[24-Sep-2015 23:37:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/php_course_work/lab_4/sendemail.php on line 82
+[24-Sep-2015 23:37:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/php_course_work/lab_4/sendemail.php on line 81
+[24-Sep-2015 23:54:44 UTC] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND) in /home/ubuntu/workspace/php_course_work/lab_4/sendemail.php on line 16
+[24-Sep-2015 23:55:19 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/php_course_work/lab_4/sendemail.php on line 46
+[25-Sep-2015 00:58:10 UTC] PHP Parse error:  syntax error, unexpected 'first_name' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/php_course_work/lab_4/removeemail.php on line 37
