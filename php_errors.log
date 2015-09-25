@@ -1,0 +1,73 @@
+[14-Sep-2015 23:57:24 UTC] PHP Parse error:  syntax error, unexpected '$other' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/php_course_work/lab_2/report.php on line 29
+[14-Sep-2015 23:58:19 UTC] PHP Parse error:  syntax error, unexpected '>', expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/php_course_work/lab_2/report.php on line 32
+[14-Sep-2015 23:59:14 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php_course_work/lab_2/report.php on line 35
+[14-Sep-2015 23:59:14 UTC] PHP Stack trace:
+[14-Sep-2015 23:59:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_2/report.php:0
+[14-Sep-2015 23:59:14 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_2/report.php:35
+[14-Sep-2015 23:59:14 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php_course_work/lab_2/report.php on line 35
+[14-Sep-2015 23:59:14 UTC] PHP Stack trace:
+[14-Sep-2015 23:59:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_2/report.php:0
+[14-Sep-2015 23:59:14 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_2/report.php:35
+[15-Sep-2015 00:00:52 UTC] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'aliendatabase' in /home/ubuntu/workspace/php_course_work/lab_2/report.php on line 35
+[15-Sep-2015 00:00:52 UTC] PHP Stack trace:
+[15-Sep-2015 00:00:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_2/report.php:0
+[15-Sep-2015 00:00:52 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_2/report.php:35
+[15-Sep-2015 00:16:59 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/ubuntu/workspace/php_course_work/lab_2/report.php on line 35
+[15-Sep-2015 00:16:59 UTC] PHP Stack trace:
+[15-Sep-2015 00:16:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_2/report.php:0
+[15-Sep-2015 00:16:59 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_2/report.php:35
+[15-Sep-2015 00:18:27 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'bstruck37'@'localhost' (using password: YES) in /home/ubuntu/workspace/php_course_work/lab_2/report.php on line 35
+[15-Sep-2015 00:18:27 UTC] PHP Stack trace:
+[15-Sep-2015 00:18:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_2/report.php:0
+[15-Sep-2015 00:18:27 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_2/report.php:35
+[20-Sep-2015 19:14:45 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/php_course_work/lab_3/addemail.php on line 12
+[20-Sep-2015 19:14:45 UTC] PHP Stack trace:
+[20-Sep-2015 19:14:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:0
+[20-Sep-2015 19:14:45 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:12
+[20-Sep-2015 19:15:18 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/php_course_work/lab_3/addemail.php on line 12
+[20-Sep-2015 19:15:18 UTC] PHP Stack trace:
+[20-Sep-2015 19:15:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:0
+[20-Sep-2015 19:15:18 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:12
+[20-Sep-2015 19:15:54 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/php_course_work/lab_3/addemail.php on line 12
+[20-Sep-2015 19:15:54 UTC] PHP Stack trace:
+[20-Sep-2015 19:15:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:0
+[20-Sep-2015 19:15:54 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:12
+[20-Sep-2015 19:15:59 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/php_course_work/lab_3/addemail.php on line 12
+[20-Sep-2015 19:15:59 UTC] PHP Stack trace:
+[20-Sep-2015 19:15:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:0
+[20-Sep-2015 19:15:59 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:12
+[20-Sep-2015 19:15:59 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/php_course_work/lab_3/addemail.php on line 12
+[20-Sep-2015 19:15:59 UTC] PHP Stack trace:
+[20-Sep-2015 19:15:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:0
+[20-Sep-2015 19:15:59 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:12
+[20-Sep-2015 19:16:01 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/php_course_work/lab_3/addemail.php on line 12
+[20-Sep-2015 19:16:01 UTC] PHP Stack trace:
+[20-Sep-2015 19:16:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:0
+[20-Sep-2015 19:16:01 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:12
+[20-Sep-2015 19:16:01 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/php_course_work/lab_3/addemail.php on line 12
+[20-Sep-2015 19:16:01 UTC] PHP Stack trace:
+[20-Sep-2015 19:16:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:0
+[20-Sep-2015 19:16:01 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:12
+[20-Sep-2015 19:17:39 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/php_course_work/lab_3/addemail.php on line 12
+[20-Sep-2015 19:17:39 UTC] PHP Stack trace:
+[20-Sep-2015 19:17:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:0
+[20-Sep-2015 19:17:39 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:12
+[20-Sep-2015 19:21:31 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/php_course_work/lab_3/addemail.php on line 12
+[20-Sep-2015 19:21:31 UTC] PHP Stack trace:
+[20-Sep-2015 19:21:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:0
+[20-Sep-2015 19:21:31 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:12
+[20-Sep-2015 19:22:22 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/php_course_work/lab_3/addemail.php on line 12
+[20-Sep-2015 19:22:22 UTC] PHP Stack trace:
+[20-Sep-2015 19:22:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:0
+[20-Sep-2015 19:22:22 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:12
+[20-Sep-2015 19:22:25 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/php_course_work/lab_3/addemail.php on line 12
+[20-Sep-2015 19:22:25 UTC] PHP Stack trace:
+[20-Sep-2015 19:22:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:0
+[20-Sep-2015 19:22:25 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:12
+[20-Sep-2015 19:22:25 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/php_course_work/lab_3/addemail.php on line 12
+[20-Sep-2015 19:22:25 UTC] PHP Stack trace:
+[20-Sep-2015 19:22:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:0
+[20-Sep-2015 19:22:25 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_3/addemail.php:12
+[20-Sep-2015 19:41:37 UTC] PHP Parse error:  syntax error, unexpected 'localhost' (T_STRING) in /home/ubuntu/workspace/php_course_work/lab_3/removeemail.php on line 12
+[20-Sep-2015 20:31:26 UTC] PHP Parse error:  syntax error, unexpected ''your '' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 8
+[20-Sep-2015 20:32:02 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 8
