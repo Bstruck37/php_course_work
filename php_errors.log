@@ -80,3 +80,226 @@
 [24-Sep-2015 23:54:44 UTC] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND) in /home/ubuntu/workspace/php_course_work/lab_4/sendemail.php on line 16
 [24-Sep-2015 23:55:19 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/php_course_work/lab_4/sendemail.php on line 46
 [25-Sep-2015 00:58:10 UTC] PHP Parse error:  syntax error, unexpected 'first_name' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/php_course_work/lab_4/removeemail.php on line 37
+[01-Oct-2015 22:49:19 UTC] PHP Parse error:  syntax error, unexpected '$' in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 34
+[01-Oct-2015 22:51:04 UTC] PHP Parse error:  syntax error, unexpected '$dbc' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 38
+[01-Oct-2015 22:55:50 UTC] PHP Parse error:  syntax error, unexpected '$dbc' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 36
+[01-Oct-2015 22:57:28 UTC] PHP Parse error:  syntax error, unexpected '$dbc' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 36
+[01-Oct-2015 23:01:09 UTC] PHP Parse error:  syntax error, unexpected '$dbc' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 22
+[01-Oct-2015 23:02:33 UTC] PHP Parse error:  syntax error, unexpected '$dbc' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 36
+[01-Oct-2015 23:03:38 UTC] PHP Parse error:  syntax error, unexpected '$dbc' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 36
+[01-Oct-2015 23:05:17 UTC] PHP Parse error:  syntax error, unexpected '$dbc' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 36
+[01-Oct-2015 23:27:49 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 36
+[01-Oct-2015 23:27:49 UTC] PHP Stack trace:
+[01-Oct-2015 23:27:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib.php:0
+[01-Oct-2015 23:34:18 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 36
+[01-Oct-2015 23:38:56 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 40
+[01-Oct-2015 23:42:32 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 36
+[01-Oct-2015 23:42:32 UTC] PHP Stack trace:
+[01-Oct-2015 23:42:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib.php:0
+[02-Oct-2015 00:13:19 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 36
+[02-Oct-2015 13:28:24 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 38
+[02-Oct-2015 13:28:24 UTC] PHP Stack trace:
+[02-Oct-2015 13:28:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib.php:0
+[02-Oct-2015 13:28:24 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/php_course_work/project_1/madlib.php:38
+[02-Oct-2015 14:00:41 UTC] PHP Fatal error:  Call to undefined function msqli_fetch_array() in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 45
+[02-Oct-2015 14:00:41 UTC] PHP Stack trace:
+[02-Oct-2015 14:00:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib.php:0
+[02-Oct-2015 14:02:08 UTC] PHP Fatal error:  Call to undefined function msqli_fetch_array() in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 43
+[02-Oct-2015 14:02:08 UTC] PHP Stack trace:
+[02-Oct-2015 14:02:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib.php:0
+[02-Oct-2015 14:02:23 UTC] PHP Fatal error:  Call to undefined function msqli_fetch_array() in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 43
+[02-Oct-2015 14:02:23 UTC] PHP Stack trace:
+[02-Oct-2015 14:02:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib.php:0
+[02-Oct-2015 14:02:25 UTC] PHP Fatal error:  Call to undefined function msqli_fetch_array() in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 43
+[02-Oct-2015 14:02:25 UTC] PHP Stack trace:
+[02-Oct-2015 14:02:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib.php:0
+[02-Oct-2015 15:09:56 UTC] PHP Fatal error:  Call to undefined function msqli_fetch_array() in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 41
+[02-Oct-2015 15:09:56 UTC] PHP Stack trace:
+[02-Oct-2015 15:09:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib.php:0
+[02-Oct-2015 15:10:20 UTC] PHP Fatal error:  Call to undefined function msqli_fetch_array() in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 41
+[02-Oct-2015 15:10:20 UTC] PHP Stack trace:
+[02-Oct-2015 15:10:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib.php:0
+[02-Oct-2015 15:10:33 UTC] PHP Fatal error:  Call to undefined function msqli_fetch_array() in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 41
+[02-Oct-2015 15:10:33 UTC] PHP Stack trace:
+[02-Oct-2015 15:10:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib.php:0
+[02-Oct-2015 15:25:27 UTC] PHP Fatal error:  Call to undefined function msqli_fetch_array() in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 41
+[02-Oct-2015 15:25:27 UTC] PHP Stack trace:
+[02-Oct-2015 15:25:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib.php:0
+[02-Oct-2015 19:44:47 UTC] PHP Fatal error:  Call to undefined function msqli_fetch_array() in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 40
+[02-Oct-2015 19:44:47 UTC] PHP Stack trace:
+[02-Oct-2015 19:44:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib.php:0
+[02-Oct-2015 19:46:18 UTC] PHP Fatal error:  Call to undefined function msqli_fetch_array() in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 40
+[02-Oct-2015 19:46:18 UTC] PHP Stack trace:
+[02-Oct-2015 19:46:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib.php:0
+[02-Oct-2015 19:47:33 UTC] PHP Fatal error:  Call to undefined function msqli_fetch_array() in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 29
+[02-Oct-2015 19:47:33 UTC] PHP Stack trace:
+[02-Oct-2015 19:47:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib.php:0
+[02-Oct-2015 19:48:03 UTC] PHP Fatal error:  Call to undefined function msqli_fetch_array() in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 40
+[02-Oct-2015 19:48:03 UTC] PHP Stack trace:
+[02-Oct-2015 19:48:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib.php:0
+[02-Oct-2015 19:57:41 UTC] PHP Fatal error:  Call to undefined function msqli_fetch_array() in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 40
+[02-Oct-2015 19:57:41 UTC] PHP Stack trace:
+[02-Oct-2015 19:57:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib.php:0
+[02-Oct-2015 19:58:43 UTC] PHP Fatal error:  Call to undefined function msqli_fetch_array() in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 40
+[02-Oct-2015 19:58:43 UTC] PHP Stack trace:
+[02-Oct-2015 19:58:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib.php:0
+[02-Oct-2015 20:01:32 UTC] PHP Fatal error:  Call to undefined function msqli_fetch_array() in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 40
+[02-Oct-2015 20:01:32 UTC] PHP Stack trace:
+[02-Oct-2015 20:01:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib.php:0
+[03-Oct-2015 14:01:15 UTC] PHP Fatal error:  Call to undefined function msqli_fetch_array() in /home/ubuntu/workspace/php_course_work/project_1/madlib.php on line 40
+[03-Oct-2015 14:01:15 UTC] PHP Stack trace:
+[03-Oct-2015 14:01:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib.php:0
+[03-Oct-2015 19:18:30 UTC] PHP Warning:  mysqli_query(): Empty query in /home/ubuntu/workspace/php_course_work/project_1/madlib1.php on line 43
+[03-Oct-2015 19:18:30 UTC] PHP Stack trace:
+[03-Oct-2015 19:18:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib1.php:0
+[03-Oct-2015 19:18:30 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php_course_work/project_1/madlib1.php:43
+[03-Oct-2015 19:41:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php_course_work/project_1/madlib1.php on line 32
+[03-Oct-2015 19:41:21 UTC] PHP Stack trace:
+[03-Oct-2015 19:41:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib1.php:0
+[03-Oct-2015 19:44:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php_course_work/project_1/madlib1.php on line 32
+[03-Oct-2015 19:44:56 UTC] PHP Stack trace:
+[03-Oct-2015 19:44:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib1.php:0
+[04-Oct-2015 17:46:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/php_course_work/project_1/madlib1.php on line 32
+[04-Oct-2015 17:46:55 UTC] PHP Stack trace:
+[04-Oct-2015 17:46:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_1/madlib1.php:0
+[04-Oct-2015 18:43:21 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 16
+[04-Oct-2015 18:43:21 UTC] PHP Stack trace:
+[04-Oct-2015 18:43:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 18:43:21 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_5/index.php:16
+[04-Oct-2015 18:43:21 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 16
+[04-Oct-2015 18:43:21 UTC] PHP Stack trace:
+[04-Oct-2015 18:43:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 18:43:21 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_5/index.php:16
+[04-Oct-2015 18:43:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 20
+[04-Oct-2015 18:43:21 UTC] PHP Stack trace:
+[04-Oct-2015 18:43:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 18:43:21 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php_course_work/lab_5/index.php:20
+[04-Oct-2015 18:43:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 24
+[04-Oct-2015 18:43:21 UTC] PHP Stack trace:
+[04-Oct-2015 18:43:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 18:43:21 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/php_course_work/lab_5/index.php:24
+[04-Oct-2015 18:43:21 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 33
+[04-Oct-2015 18:43:21 UTC] PHP Stack trace:
+[04-Oct-2015 18:43:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 18:43:21 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/php_course_work/lab_5/index.php:33
+[04-Oct-2015 18:43:21 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 16
+[04-Oct-2015 18:43:21 UTC] PHP Stack trace:
+[04-Oct-2015 18:43:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 18:43:21 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_5/index.php:16
+[04-Oct-2015 18:43:21 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 16
+[04-Oct-2015 18:43:21 UTC] PHP Stack trace:
+[04-Oct-2015 18:43:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 18:43:21 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_5/index.php:16
+[04-Oct-2015 18:43:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 20
+[04-Oct-2015 18:43:21 UTC] PHP Stack trace:
+[04-Oct-2015 18:43:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 18:43:21 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php_course_work/lab_5/index.php:20
+[04-Oct-2015 18:43:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 24
+[04-Oct-2015 18:43:21 UTC] PHP Stack trace:
+[04-Oct-2015 18:43:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 18:43:21 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/php_course_work/lab_5/index.php:24
+[04-Oct-2015 18:43:21 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 33
+[04-Oct-2015 18:43:21 UTC] PHP Stack trace:
+[04-Oct-2015 18:43:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 18:43:21 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/php_course_work/lab_5/index.php:33
+[04-Oct-2015 18:43:27 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 16
+[04-Oct-2015 18:43:27 UTC] PHP Stack trace:
+[04-Oct-2015 18:43:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 18:43:27 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_5/index.php:16
+[04-Oct-2015 18:43:27 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 16
+[04-Oct-2015 18:43:27 UTC] PHP Stack trace:
+[04-Oct-2015 18:43:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 18:43:27 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_5/index.php:16
+[04-Oct-2015 18:43:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 20
+[04-Oct-2015 18:43:27 UTC] PHP Stack trace:
+[04-Oct-2015 18:43:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 18:43:27 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php_course_work/lab_5/index.php:20
+[04-Oct-2015 18:43:27 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 24
+[04-Oct-2015 18:43:27 UTC] PHP Stack trace:
+[04-Oct-2015 18:43:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 18:43:27 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/php_course_work/lab_5/index.php:24
+[04-Oct-2015 18:43:27 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 33
+[04-Oct-2015 18:43:27 UTC] PHP Stack trace:
+[04-Oct-2015 18:43:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 18:43:27 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/php_course_work/lab_5/index.php:33
+[04-Oct-2015 18:58:07 UTC] PHP Parse error:  syntax error, unexpected 'Score' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 31
+[04-Oct-2015 18:59:02 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 16
+[04-Oct-2015 18:59:02 UTC] PHP Stack trace:
+[04-Oct-2015 18:59:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 18:59:02 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_5/index.php:16
+[04-Oct-2015 18:59:02 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 16
+[04-Oct-2015 18:59:02 UTC] PHP Stack trace:
+[04-Oct-2015 18:59:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 18:59:02 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_5/index.php:16
+[04-Oct-2015 18:59:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 20
+[04-Oct-2015 18:59:02 UTC] PHP Stack trace:
+[04-Oct-2015 18:59:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 18:59:02 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php_course_work/lab_5/index.php:20
+[04-Oct-2015 18:59:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 24
+[04-Oct-2015 18:59:02 UTC] PHP Stack trace:
+[04-Oct-2015 18:59:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 18:59:02 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/php_course_work/lab_5/index.php:24
+[04-Oct-2015 18:59:02 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 36
+[04-Oct-2015 18:59:02 UTC] PHP Stack trace:
+[04-Oct-2015 18:59:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 18:59:02 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/php_course_work/lab_5/index.php:36
+[04-Oct-2015 19:01:15 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 16
+[04-Oct-2015 19:01:15 UTC] PHP Stack trace:
+[04-Oct-2015 19:01:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 19:01:15 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_5/index.php:16
+[04-Oct-2015 19:01:15 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 16
+[04-Oct-2015 19:01:15 UTC] PHP Stack trace:
+[04-Oct-2015 19:01:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 19:01:15 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_5/index.php:16
+[04-Oct-2015 19:01:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 20
+[04-Oct-2015 19:01:15 UTC] PHP Stack trace:
+[04-Oct-2015 19:01:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 19:01:15 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php_course_work/lab_5/index.php:20
+[04-Oct-2015 19:01:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 24
+[04-Oct-2015 19:01:15 UTC] PHP Stack trace:
+[04-Oct-2015 19:01:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 19:01:15 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/php_course_work/lab_5/index.php:24
+[04-Oct-2015 19:01:15 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 36
+[04-Oct-2015 19:01:15 UTC] PHP Stack trace:
+[04-Oct-2015 19:01:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 19:01:15 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/php_course_work/lab_5/index.php:36
+[04-Oct-2015 19:01:34 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 16
+[04-Oct-2015 19:01:34 UTC] PHP Stack trace:
+[04-Oct-2015 19:01:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 19:01:34 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_5/index.php:16
+[04-Oct-2015 19:01:34 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 16
+[04-Oct-2015 19:01:34 UTC] PHP Stack trace:
+[04-Oct-2015 19:01:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 19:01:34 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_5/index.php:16
+[04-Oct-2015 19:01:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 20
+[04-Oct-2015 19:01:34 UTC] PHP Stack trace:
+[04-Oct-2015 19:01:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 19:01:34 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php_course_work/lab_5/index.php:20
+[04-Oct-2015 19:01:34 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 24
+[04-Oct-2015 19:01:34 UTC] PHP Stack trace:
+[04-Oct-2015 19:01:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 19:01:34 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/php_course_work/lab_5/index.php:24
+[04-Oct-2015 19:01:34 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 36
+[04-Oct-2015 19:01:34 UTC] PHP Stack trace:
+[04-Oct-2015 19:01:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 19:01:34 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/php_course_work/lab_5/index.php:36
+[04-Oct-2015 19:02:02 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 16
+[04-Oct-2015 19:02:02 UTC] PHP Stack trace:
+[04-Oct-2015 19:02:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 19:02:02 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_5/index.php:16
+[04-Oct-2015 19:02:02 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 16
+[04-Oct-2015 19:02:02 UTC] PHP Stack trace:
+[04-Oct-2015 19:02:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 19:02:02 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_5/index.php:16
+[04-Oct-2015 19:02:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 20
+[04-Oct-2015 19:02:02 UTC] PHP Stack trace:
+[04-Oct-2015 19:02:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 19:02:02 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php_course_work/lab_5/index.php:20
+[04-Oct-2015 19:02:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 24
+[04-Oct-2015 19:02:02 UTC] PHP Stack trace:
+[04-Oct-2015 19:02:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 19:02:02 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/php_course_work/lab_5/index.php:24
+[04-Oct-2015 19:02:02 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php_course_work/lab_5/index.php on line 36
+[04-Oct-2015 19:02:02 UTC] PHP Stack trace:
+[04-Oct-2015 19:02:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_5/index.php:0
+[04-Oct-2015 19:02:02 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/php_course_work/lab_5/index.php:36

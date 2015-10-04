@@ -20,20 +20,18 @@
     <label for="adverb">Enter an adverb:<label>
     <input type="text" id="adverb" name="adverb" /><br /><br />
     <input type="submit" value="Enter Story" name="submit" /><br /><br />
-  </form>
-
-<?php
     
-    $noun = $_POST['noun'];
+<?php
+    if (isset($_POST['submit'])) {
+    $noun = $_POST['noun']; 
     $verb = $_POST['verb'];
     $adj = $_POST['adj'];
     $adverb = $_POST['adverb'];
-   
     
-    echo 'Do you ' . $_POST['verb'] . ' your ' . $_POST['adj'] . ' ' . $_POST['noun'] . ' ' . $_POST['adverb'] . '? That\'s hilarious!';
-
-  
-    $dbc = mysqli_connect('localhost', 'bstruck37', 'stocktruck5', 'madlibs')
+        echo 'Do you ' . $_POST['verb'] . ' your ' . $_POST['adj'] . ' ' . $_POST['noun'] . ' ' . $_POST['adverb'] . '? That\'s hilarious!';          
+    } 
+    
+  $dbc = mysqli_connect('localhost', 'bstruck37', 'stocktruck5', 'madlibs')
       or die('Error connecting to MySQL server.');
 
     $query = "SELECT * FROM madlib_stories";
@@ -45,13 +43,13 @@
       $verb = $row['verb'];
       $adj = $row['adj'];
       $adverb = $row['adverb'];
-      $comp_story = $row['Do you ' . $_POST['verb'] . ' your ' . $_POST['adj'] . ' ' . $_POST['noun'] . ' ' . $_POST['adverb'] . '? That\'s hilarious!'];
-
+      $comp_story = $row['comp_story'];
     }
       
-      
-   mysqli_close($dbc);
-    
+  mysqli_close($dbc);
+  
 ?>
-</body>
+    
+  </form>
+  </body>
 </html>
