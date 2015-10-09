@@ -724,3 +724,40 @@
 [09-Oct-2015 00:26:04 UTC] PHP Stack trace:
 [09-Oct-2015 00:26:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_6/index.php:0
 [09-Oct-2015 00:26:04 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/php_course_work/lab_6/index.php:28
+[09-Oct-2015 16:59:12 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php on line 24
+[09-Oct-2015 16:59:12 UTC] PHP Stack trace:
+[09-Oct-2015 16:59:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php:0
+[09-Oct-2015 16:59:32 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php on line 24
+[09-Oct-2015 16:59:32 UTC] PHP Stack trace:
+[09-Oct-2015 16:59:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php:0
+[09-Oct-2015 16:59:54 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php on line 24
+[09-Oct-2015 16:59:54 UTC] PHP Stack trace:
+[09-Oct-2015 16:59:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php:0
+[09-Oct-2015 17:01:30 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php on line 24
+[09-Oct-2015 17:01:30 UTC] PHP Stack trace:
+[09-Oct-2015 17:01:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php:0
+[09-Oct-2015 17:03:17 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php on line 24
+[09-Oct-2015 17:03:17 UTC] PHP Stack trace:
+[09-Oct-2015 17:03:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php:0
+[09-Oct-2015 17:03:40 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php on line 24
+[09-Oct-2015 17:03:40 UTC] PHP Stack trace:
+[09-Oct-2015 17:03:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php:0
+[09-Oct-2015 17:04:29 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php on line 24
+[09-Oct-2015 17:04:29 UTC] PHP Stack trace:
+[09-Oct-2015 17:04:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php:0
+[09-Oct-2015 17:05:54 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php on line 24
+[09-Oct-2015 17:05:54 UTC] PHP Stack trace:
+[09-Oct-2015 17:05:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php:0
+[09-Oct-2015 17:08:01 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php on line 24
+[09-Oct-2015 17:08:01 UTC] PHP Stack trace:
+[09-Oct-2015 17:08:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php:0
+[09-Oct-2015 17:46:54 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php on line 24
+[09-Oct-2015 17:46:54 UTC] PHP Stack trace:
+[09-Oct-2015 17:46:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php:0
+[09-Oct-2015 17:47:58 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php on line 24
+[09-Oct-2015 17:47:58 UTC] PHP Stack trace:
+[09-Oct-2015 17:47:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php:0
+[09-Oct-2015 18:01:13 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php on line 33
+[09-Oct-2015 18:14:05 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php on line 30
+[09-Oct-2015 18:42:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php on line 41
+[09-Oct-2015 18:49:28 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php on line 33
