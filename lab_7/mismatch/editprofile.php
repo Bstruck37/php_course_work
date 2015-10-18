@@ -1,20 +1,22 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <?php
-    require_once('login.php');
-?>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Mismatch - Edit Profile</title>
-  <link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-<body>
-  <h3>Mismatch - Edit Profile</h3>
+  // Start the session
+  require_once('startsession.php');
 
-<?php
+  // Insert the page header
+  $page_title = 'Edit Profile';
+  require_once('header.php');
+
   require_once('appvars.php');
   require_once('connectvars.php');
+
+  // Make sure the user is logged in before going any further.
+  if (!isset($_SESSION['user_id'])) {
+    echo '<p class="login">Please <a href="login.php">log in</a> to access this page.</p>';
+    exit();
+  }
+
+  // Show the navigation menu
+  require_once('navmenu.php');
 
   // Connect to the database
   $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
@@ -71,11 +73,11 @@
         // Only set the picture column if there is a new picture
         if (!empty($new_picture)) {
           $query = "UPDATE mismatch_user SET first_name = '$first_name', last_name = '$last_name', gender = '$gender', " .
-            " birthdate = '$birthdate', city = '$city', state = '$state', picture = '$new_picture' WHERE user_id = '$user_id'";
+            " birthdate = '$birthdate', city = '$city', state = '$state', picture = '$new_picture' WHERE user_id = '" . $_SESSION['user_id'] . "'";
         }
         else {
           $query = "UPDATE mismatch_user SET first_name = '$first_name', last_name = '$last_name', gender = '$gender', " .
-            " birthdate = '$birthdate', city = '$city', state = '$state' WHERE user_id = '$user_id'";
+            " birthdate = '$birthdate', city = '$city', state = '$state' WHERE user_id = '" . $_SESSION['user_id'] . "'";
         }
         mysqli_query($dbc, $query);
 
@@ -92,7 +94,7 @@
   } // End of check for form submission
   else {
     // Grab the profile data from the database
-    $query = "SELECT first_name, last_name, gender, birthdate, city, state, picture FROM mismatch_user WHERE user_id = '$user_id'";
+    $query = "SELECT first_name, last_name, gender, birthdate, city, state, picture FROM mismatch_user WHERE user_id = '" . $_SESSION['user_id'] . "'";
     $data = mysqli_query($dbc, $query);
     $row = mysqli_fetch_array($data);
 
@@ -141,5 +143,8 @@
     </fieldset>
     <input type="submit" value="Save Profile" name="submit" />
   </form>
-</body> 
-</html>
+
+<?php
+  // Insert the page footer
+  require_once('footer.php');
+?>
