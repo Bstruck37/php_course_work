@@ -1,0 +1,22 @@
+[22-Oct-2015 22:17:48 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php_course_work/lab_8/riskyjobs/search.php on line 29
+[22-Oct-2015 22:17:48 UTC] PHP Stack trace:
+[22-Oct-2015 22:17:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_8/riskyjobs/search.php:0
+[22-Oct-2015 22:17:48 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_8/riskyjobs/search.php:29
+[22-Oct-2015 22:17:48 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php_course_work/lab_8/riskyjobs/search.php on line 29
+[22-Oct-2015 22:17:48 UTC] PHP Stack trace:
+[22-Oct-2015 22:17:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_8/riskyjobs/search.php:0
+[22-Oct-2015 22:17:48 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_8/riskyjobs/search.php:29
+[22-Oct-2015 22:17:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php_course_work/lab_8/riskyjobs/search.php on line 33
+[22-Oct-2015 22:17:48 UTC] PHP Stack trace:
+[22-Oct-2015 22:17:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_8/riskyjobs/search.php:0
+[22-Oct-2015 22:17:48 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php_course_work/lab_8/riskyjobs/search.php:33
+[22-Oct-2015 22:17:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/php_course_work/lab_8/riskyjobs/search.php on line 34
+[22-Oct-2015 22:17:48 UTC] PHP Stack trace:
+[22-Oct-2015 22:17:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_8/riskyjobs/search.php:0
+[22-Oct-2015 22:17:48 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/php_course_work/lab_8/riskyjobs/search.php:34
+[22-Oct-2015 22:17:48 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php_course_work/lab_8/riskyjobs/search.php on line 44
+[22-Oct-2015 22:17:48 UTC] PHP Stack trace:
+[22-Oct-2015 22:17:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_8/riskyjobs/search.php:0
+[22-Oct-2015 22:17:48 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/php_course_work/lab_8/riskyjobs/search.php:44
+[22-Oct-2015 22:37:58 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/ubuntu/workspace/php_course_work/lab_8/riskyjobs/search.php on line 40
+[22-Oct-2015 22:47:11 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/php_course_work/lab_8/riskyjobs/search.php on line 40
