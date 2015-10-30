@@ -10,8 +10,8 @@
     while ($row = mysqli_fetch_array($data)) { 
         // Display the blog entries
         echo '<br /><br />';
-        echo '<h5>' . $row['date'] . '&nbsp&nbsp&nbsp' . $row['Blog_Title'] . '</h5>';
-        echo '<p>' . $row['Blog_Entry'] . '</p><hr>';
+        echo '<h3>' . $row['date'] . '&nbsp&nbsp&nbsp' . $row['Blog_Title'] . '</h3>';
+        echo '<p class="text">' . $row['Blog_Entry'] . '</p>';
     }
 
 ?>
