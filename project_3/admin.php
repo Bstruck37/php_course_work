@@ -36,9 +36,8 @@
 ?>
 
 <?php
-    if (isset($_POST['id']) && isset($_POST['date']) && isset($_POST['Blog_Title'])) {
+    if (isset($_POST['date']) && isset($_POST['Blog_Title'])) {
         // Grab the date & Title data from the POST
-        $id = $_GET['id'];
         $date = $_GET['date'];
         $Btitle = $_GET['Blog_Title'];
     }
@@ -60,14 +59,13 @@
             echo '<p class="error">The Blog Entry was not removed.</p>';
         }
     }
-    else if (isset($id) && isset($date) && isset($Btitle)) {
+    else if (isset($date) && isset($Btitle)) {
         echo '<p>Are you sure you want to delete the following Blog Entry?</p>';
         echo '<p><strong>Date: </strong>' . $date . '<br /><strong>Title: </strong>' . $Btitle . '</p>';
         echo '<form method="post" action="admin.php">';
         echo '<input type="radio" name="confirm" value="Yes" /> Yes ';
         echo '<input type="radio" name="confirm" value="No" checked="checked" /> No <br />';
         echo '<input type="submit" value="Submit" name="submit" />';
-        echo '<input type="hidden" name="id" value="' . $id . '" />';
         echo '<input type="hidden" name="date" value="' . $date . '" />';
         echo '<input type="hidden" name="Blog_Title" value="' . $Btitle . '" />';
         echo '</form>';

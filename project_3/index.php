@@ -2,6 +2,13 @@
 <?php include('db.php') ?>
 
 <?php
+  // Log in Link
+  if (isset($_SESSION['username'])) {
+    echo '<p class="text"><a href="login.php">Log In</a></p>';
+  }
+?>  
+
+<?php
     // Retrieve the score data from MySQL
     $query = "SELECT * FROM myblogs ORDER BY date DESC";
     $data = mysqli_query($mysqli, $query);
