@@ -111,33 +111,23 @@
 <ul>
 <?php
 
+    $madlib = new Madlib();
+
     if (isset($_POST['submit'])) {
-        $noun = $_POST['noun']; 
-        $verb = $_POST['verb'];
-        $adj = $_POST['adjective'];
-        $adverb = $_POST['adverb'];
         
-        $story = "Do you $verb your $adj $noun $adverb? That\'s hilarious!";
-    } 
-    
-    $dbc = mysqli_connect('localhost', 'bstruck37', 'stocktruck5', 'lab_9_madlibs')
-        or die('Error connecting to MySQL server.');
+        $madlib->setNoun($_POST['noun']);
+        $madlib->setVerb($_POST['verb']);
+        $madlib->setAdjective($_POST['adjective']);
+        $madlib->setAdverb($_POST['adverb']);
         
-        if ((!empty($noun)) && (!empty($verb)) && (!empty($adj)) && (!empty($adverb))) {    
+        $madlib->save();
         
-        $result = mysqli_query($dbc, "INSERT INTO Madlibs (Story, Noun, Verb, Adjective, Adverb)". 
-            "VALUES ('$story', '$noun', '$verb', '$adj', '$adverb')");   
-          
-        $result = mysqli_query($dbc, "SELECT * FROM Madlibs ORDER BY id DESC");
-        
-        echo '<h3>Following is your story, and other users stories after that:</h3>';
-    
-        while ($row = mysqli_fetch_array($result)) {
-            echo $row['Story'] . '<br />';
-        }
-    
-        mysqli_close($dbc);
     }
+    
+    $madlib->displayAllStories();
+     
+       
+    
 ?>
 </ul>
         <!-- Footer -->

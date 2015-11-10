@@ -316,3 +316,12 @@
 [06-Nov-2015 14:07:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_9/index.php:0
 [06-Nov-2015 14:07:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/php_course_work/lab_9/index.php:2
 [06-Nov-2015 14:07:46 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/php_course_work/lab_9/madlibs.php:12
+[10-Nov-2015 01:28:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/php_course_work/lab_9/index.php on line 138
+[10-Nov-2015 01:28:29 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/ubuntu/workspace/php_course_work/lab_9/madlibs.php on line 75
+[10-Nov-2015 01:28:29 UTC] PHP Stack trace:
+[10-Nov-2015 01:28:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_9/index.php:0
+[10-Nov-2015 01:47:46 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php_course_work/lab_9/madlibs.php on line 84
+[10-Nov-2015 01:47:46 UTC] PHP Stack trace:
+[10-Nov-2015 01:47:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_9/index.php:0
+[10-Nov-2015 01:47:46 UTC] PHP   2. Madlib->displayAllStories() /home/ubuntu/workspace/php_course_work/lab_9/index.php:127
+[10-Nov-2015 01:47:46 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/php_course_work/lab_9/madlibs.php:84
