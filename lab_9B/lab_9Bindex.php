@@ -1,3 +1,7 @@
+<?php
+    require_once('lab_9B.php');
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -18,35 +22,18 @@
         <input type="submit" value="Calculate" name="submit" /><br /><br />
 
 <?php
-
-$weight = $_POST["weight"];
-$height = $_POST["height"];
-
-
-    if (is_numeric($weight) && is_numeric($height)) 
-        {
-        $bmi = ($weight / ($height * $height)) * 703;
+    
+    $bmicalc = new bmiCalc();
+    
+    if (isset($_POST['submit'])) {
         
-        if ($bmi <= 18.5) 
-        {
-            echo "Your BMI is " .round($bmi,1). " <br />"; 
-            echo " Your are underweight. You should see your Doctor";
-        } 
-        else 
-        {   
-        
-            if ($bmi >= 18.5 and $bmi <= 25) 
-            {   
-                echo "Your BMI is " .round($bmi,1). " <br />"; 
-                echo " You are in the correct weight range"; 
-            } 
-            else 
-            {
-                echo "Your BMI is " .round($bmi,1). " <br />"; 
-                echo " Your are overweight. You should see your Doctor";
-            }
-        }   
+        $bmicalc->setWeight($_POST['weight']);
+        $bmicalc->setHeight($_POST['height']);
+
     }
+    
+    $bmicalc->createOutputMessage();
+
 ?>
     
     </form>

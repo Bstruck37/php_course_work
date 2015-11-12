@@ -325,3 +325,19 @@
 [10-Nov-2015 01:47:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_9/index.php:0
 [10-Nov-2015 01:47:46 UTC] PHP   2. Madlib->displayAllStories() /home/ubuntu/workspace/php_course_work/lab_9/index.php:127
 [10-Nov-2015 01:47:46 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/php_course_work/lab_9/madlibs.php:84
+[12-Nov-2015 16:49:05 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/php_course_work/project_2/bmicalc.php on line 48
+[12-Nov-2015 19:06:09 UTC] PHP Fatal error:  Class 'bmicalc' not found in /home/ubuntu/workspace/php_course_work/lab_9B/lab_9Bindex.php on line 22
+[12-Nov-2015 19:06:09 UTC] PHP Stack trace:
+[12-Nov-2015 19:06:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_9B/lab_9Bindex.php:0
+[12-Nov-2015 19:06:39 UTC] PHP Fatal error:  Class 'bmicalc' not found in /home/ubuntu/workspace/php_course_work/lab_9B/lab_9Bindex.php on line 22
+[12-Nov-2015 19:06:39 UTC] PHP Stack trace:
+[12-Nov-2015 19:06:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_9B/lab_9Bindex.php:0
+[12-Nov-2015 19:09:04 UTC] PHP Fatal error:  Class 'bmiCalc' not found in /home/ubuntu/workspace/php_course_work/lab_9B/lab_9Bindex.php on line 22
+[12-Nov-2015 19:09:04 UTC] PHP Stack trace:
+[12-Nov-2015 19:09:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_9B/lab_9Bindex.php:0
+[12-Nov-2015 19:14:25 UTC] PHP Fatal error:  Class 'bmiCalc' not found in /home/ubuntu/workspace/php_course_work/lab_9B/lab_9Bindex.php on line 22
+[12-Nov-2015 19:14:25 UTC] PHP Stack trace:
+[12-Nov-2015 19:14:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_9B/lab_9Bindex.php:0
+[12-Nov-2015 19:15:34 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/ubuntu/workspace/php_course_work/lab_9B/lab_9B.php on line 55
+[12-Nov-2015 19:15:34 UTC] PHP Stack trace:
+[12-Nov-2015 19:15:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_9B/lab_9Bindex.php:0
