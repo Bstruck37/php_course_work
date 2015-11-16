@@ -19,14 +19,17 @@
 
 <?php
 
+//Set variables
 $weight = $_POST["weight"];
 $height = $_POST["height"];
 
-
+    //Check to see if varibles are a number
     if (is_numeric($weight) && is_numeric($height)) 
         {
+        //Calculate the BMI  
         $bmi = ($weight / ($height * $height)) * 703;
         
+        //Give the proper response as to where the BMI number falls
         if ($bmi <= 18.5) 
         {
             echo "Your BMI is " .round($bmi,1). " <br />"; 
