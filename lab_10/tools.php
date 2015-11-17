@@ -1,4 +1,10 @@
 <?php
+    require_once('product.php');
+
+?>
+
+
+<?php
 
     class Tools extends Product
     {

@@ -6,7 +6,8 @@
 <?php
 if (isset($_POST['submit'])) {
         
-        $generic_product = new Tools();
+        $tools = new Tools();
+        $generic_product = new Product();
         
         
         $generic_product->setproductTitle($_POST['title']);
@@ -18,8 +19,9 @@ if (isset($_POST['submit'])) {
         
         $title = $generic_product->getproductTitle();
         $desc =  $generic_product->getproductDesc();
+        $price =  $generic_product->getproductPrice();
         
-        $tools =  $tools->gettoolsShipper();
+        $shipper =  $tools->gettoolsShipper();
         $weight =  $tools->gettoolsWeight();
         
   
@@ -28,7 +30,7 @@ if (isset($_POST['submit'])) {
         or die('Error connecting to MySQL server.');
         
         $query = "INSERT INTO lab_10 (productTitle, productDesc, productPrice, toolsShipper, toolsWeight)". 
-            "VALUES ('$title', '$desc', '$price', '$tools', '$weight')";
+            "VALUES ('$title', '$desc', '$price', '$shipper', '$weight')";
         
         $result = mysqli_query($dbc, $query);
         

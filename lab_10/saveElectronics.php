@@ -6,7 +6,8 @@
 <?php
 if (isset($_POST['submit'])) {
         
-        $generic_product = new Electronics();
+        $electronics = new Electronics();
+        $generic_product = new Product();
         
         
         $generic_product->setproductTitle($_POST['title']);
@@ -17,6 +18,8 @@ if (isset($_POST['submit'])) {
 
         $title = $generic_product->getproductTitle();
         $desc =  $generic_product->getproductDesc();
+        $price =  $generic_product->getproductPrice();
+
         $recycle =  $electronics->getelectronicsRecycle();
         
 

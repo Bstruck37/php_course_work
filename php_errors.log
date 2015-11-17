@@ -368,3 +368,18 @@
 [17-Nov-2015 02:10:03 UTC] PHP Stack trace:
 [17-Nov-2015 02:10:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_10/saveElectronics.php:0
 [17-Nov-2015 02:10:03 UTC] PHP   2. require_once() /home/ubuntu/workspace/php_course_work/lab_10/saveElectronics.php:2
+[17-Nov-2015 02:11:56 UTC] PHP Fatal error:  Call to a member function setelectronicsRecycle() on a non-object in /home/ubuntu/workspace/php_course_work/lab_10/saveElectronics.php on line 15
+[17-Nov-2015 02:11:56 UTC] PHP Stack trace:
+[17-Nov-2015 02:11:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_10/saveElectronics.php:0
+[17-Nov-2015 14:57:53 UTC] PHP Fatal error:  Call to a member function settoolsShipper() on a non-object in /home/ubuntu/workspace/php_course_work/lab_10/saveTools.php on line 16
+[17-Nov-2015 14:57:53 UTC] PHP Stack trace:
+[17-Nov-2015 14:57:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_10/saveTools.php:0
+[17-Nov-2015 15:01:27 UTC] PHP Fatal error:  Call to a member function setproductTitle() on a non-object in /home/ubuntu/workspace/php_course_work/lab_10/saveTools.php on line 12
+[17-Nov-2015 15:01:27 UTC] PHP Stack trace:
+[17-Nov-2015 15:01:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_10/saveTools.php:0
+[17-Nov-2015 15:01:49 UTC] PHP Fatal error:  Call to a member function setproductTitle() on a non-object in /home/ubuntu/workspace/php_course_work/lab_10/saveTools.php on line 12
+[17-Nov-2015 15:01:49 UTC] PHP Stack trace:
+[17-Nov-2015 15:01:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_10/saveTools.php:0
+[17-Nov-2015 15:02:47 UTC] PHP Fatal error:  Call to a member function gettoolsWeight() on a non-object in /home/ubuntu/workspace/php_course_work/lab_10/saveTools.php on line 24
+[17-Nov-2015 15:02:47 UTC] PHP Stack trace:
+[17-Nov-2015 15:02:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_10/saveTools.php:0

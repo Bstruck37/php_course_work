@@ -1,4 +1,9 @@
 <?php
+    require_once('product.php');
+
+?>
+
+<?php
 
     class Electronics extends Product
     {
