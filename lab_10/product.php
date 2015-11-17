@@ -1,18 +1,17 @@
 <?php
-    require_once('electronics.php');
     require_once('tools.php');
+    require_once('electronics.php');
 ?>
-
 
 <?php
 
     class Product
     {
-        private $productTitle;
-        private $productDesc;
-        private $productPrice;
+        protected $productTitle;
+        protected $productDesc;
+        protected $productPrice;
     
-        //Getters & Setter for product
+        //Getters & Setters for product
         public function setproductTitle($productTitle){
             $this->productTitle = $productTitle;
         }
@@ -30,27 +29,23 @@
         }
         
         public function setproductPrice($productPrice){
-            $this->pproductPrice = $productPrice;
+            $this->productPrice = $productPrice;
         }
     
         public function getproductPrice(){
             return $this->productPrice;
         }
-    }
-
-    class Tools extends Product
-    {
-        public function Tools(){
-            return 0;
+        
+        public function postTo(){
+            return 'saveProduct.php';
         }
         
+        public function productType(){
+            return 'Generic Product';
+        }
+        
+        public function renderForm(){
+            return file_get_contents('forms/generic_form.html');
+        }
     }
-   
-    class Electronics extends Product
-    {
-        public function Electronics(){
-            return 0;
-        }    
-    }
-     
 ?>

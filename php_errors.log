@@ -341,3 +341,30 @@
 [12-Nov-2015 19:15:34 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/ubuntu/workspace/php_course_work/lab_9B/lab_9B.php on line 55
 [12-Nov-2015 19:15:34 UTC] PHP Stack trace:
 [12-Nov-2015 19:15:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_9B/lab_9Bindex.php:0
+[17-Nov-2015 01:19:52 UTC] PHP Fatal error:  Class 'Product' not found in /home/ubuntu/workspace/php_course_work/lab_10/addProduct.php on line 115
+[17-Nov-2015 01:19:52 UTC] PHP Stack trace:
+[17-Nov-2015 01:19:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_10/addProduct.php:0
+[17-Nov-2015 01:20:35 UTC] PHP Parse error:  syntax error, unexpected 'ppublic' (T_STRING), expecting function (T_FUNCTION) in /home/ubuntu/workspace/php_course_work/lab_10/electronics.php on line 16
+[17-Nov-2015 01:20:35 UTC] PHP Stack trace:
+[17-Nov-2015 01:20:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_10/addProduct.php:0
+[17-Nov-2015 01:20:35 UTC] PHP   2. require_once() /home/ubuntu/workspace/php_course_work/lab_10/addProduct.php:2
+[17-Nov-2015 01:42:30 UTC] PHP Fatal error:  Class 'Product' not found in /home/ubuntu/workspace/php_course_work/lab_10/saveProduct.php on line 4
+[17-Nov-2015 01:42:30 UTC] PHP Stack trace:
+[17-Nov-2015 01:42:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_10/saveProduct.php:0
+[17-Nov-2015 01:43:04 UTC] PHP Fatal error:  Call to undefined method Product::validatepostParams() in /home/ubuntu/workspace/php_course_work/lab_10/saveProduct.php on line 10
+[17-Nov-2015 01:43:04 UTC] PHP Stack trace:
+[17-Nov-2015 01:43:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_10/saveProduct.php:0
+[17-Nov-2015 02:08:30 UTC] PHP Fatal error:  Class 'Product' not found in /home/ubuntu/workspace/php_course_work/lab_10/tools.php on line 4
+[17-Nov-2015 02:08:30 UTC] PHP Stack trace:
+[17-Nov-2015 02:08:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_10/saveTools.php:0
+[17-Nov-2015 02:08:30 UTC] PHP   2. require_once() /home/ubuntu/workspace/php_course_work/lab_10/saveTools.php:2
+[17-Nov-2015 02:09:28 UTC] PHP Warning:  require_once(Electronics.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php_course_work/lab_10/saveElectronics.php on line 2
+[17-Nov-2015 02:09:28 UTC] PHP Stack trace:
+[17-Nov-2015 02:09:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_10/saveElectronics.php:0
+[17-Nov-2015 02:09:28 UTC] PHP Fatal error:  require_once(): Failed opening required 'Electronics.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php_course_work/lab_10/saveElectronics.php on line 2
+[17-Nov-2015 02:09:28 UTC] PHP Stack trace:
+[17-Nov-2015 02:09:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_10/saveElectronics.php:0
+[17-Nov-2015 02:10:03 UTC] PHP Fatal error:  Class 'Product' not found in /home/ubuntu/workspace/php_course_work/lab_10/electronics.php on line 4
+[17-Nov-2015 02:10:03 UTC] PHP Stack trace:
+[17-Nov-2015 02:10:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_10/saveElectronics.php:0
+[17-Nov-2015 02:10:03 UTC] PHP   2. require_once() /home/ubuntu/workspace/php_course_work/lab_10/saveElectronics.php:2

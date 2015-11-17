@@ -1,12 +1,10 @@
 <?php
 
-    class Electronics
+    class Electronics extends Product
     {
         private $electronicsRecycle;
-        private $electronicsNonRecycle;
-    
-    
-        //Getters & Setter for Tools
+
+        //Getters & Setters for Tools
         public function setelectronicsRecycle($electronicsRecycle){
             $this->electronicsRecycle = $electronicsRecycle;
         }
@@ -15,14 +13,20 @@
             return $this->electronicsRecycle;
         }
         
-        public function setelectronicsRecycle($electronicsNonRecycle){
-            $this->telectronicsNonRecycle = $electronicsNonRecycle;
+        public function postTo(){
+            return 'saveElectronics.php';
         }
-    
-        public function getelectronicsNonRecycle(){
-            return $this->electronicsNonRecycle;
+        
+        public function productType(){
+            return 'Electronics';
         }
-
+        
+        public function renderForm()
+        {
+        $base_form = file_get_contents('forms/generic_form.html');
+        $tool_specific = file_get_contents('forms/electronic_form.html');
+        return $base_form . $tool_specific;
+        }
     }
     
 ?>
