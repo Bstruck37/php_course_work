@@ -383,3 +383,6 @@
 [17-Nov-2015 15:02:47 UTC] PHP Fatal error:  Call to a member function gettoolsWeight() on a non-object in /home/ubuntu/workspace/php_course_work/lab_10/saveTools.php on line 24
 [17-Nov-2015 15:02:47 UTC] PHP Stack trace:
 [17-Nov-2015 15:02:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_10/saveTools.php:0
+[17-Nov-2015 16:47:30 UTC] PHP Fatal error:  Call to undefined method Electronics::setelectronicsRecycle() in /home/ubuntu/workspace/php_course_work/lab_10/saveElectronics.php on line 17
+[17-Nov-2015 16:47:30 UTC] PHP Stack trace:
+[17-Nov-2015 16:47:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_10/saveElectronics.php:0

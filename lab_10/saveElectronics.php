@@ -13,6 +13,7 @@ if (isset($_POST['submit'])) {
         $generic_product->setproductTitle($_POST['title']);
         $generic_product->setproductDesc($_POST['description']);
         $generic_product->setproductPrice($_POST['price']);
+        
         $electronics->setelectronicsRecycle($_POST['recycle']);
         
 

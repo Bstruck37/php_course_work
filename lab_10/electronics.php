@@ -8,12 +8,21 @@
     class Electronics extends Product
     {
         private $electronicsRecycle;
-
-        //Getters & Setters for Tools
-        public function setelectronicsRecycle($electronicsRecycle){
-            $this->electronicsRecycle = $electronicsRecycle;
+        
+        //Getters & Setters for Electronics
+        public function setelectronicsRecycle($value)
+        {
+            if(isset($value) && !empty($value))
+            {
+                $this->electronicsRecycle =  "yes";
+                }
+                else
+                {
+                $this->electronicsRecycle = "no";
+            }
         }
-    
+
+
         public function getelectronicsRecycle(){
             return $this->electronicsRecycle;
         }
