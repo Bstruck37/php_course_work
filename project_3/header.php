@@ -22,7 +22,13 @@
     <div class="header"><!-- end .header --><img src="assets/blog_logo.jpg" width="auto" height="209" /></div>
 </div>
 
-
+    <?php if (strpos($_SERVER['SCRIPT_NAME'], 'index.php') !== false) {
+        echo '<p class="nav"><a href="admin.php">ADMIN</a></p>';
+        }
+        else {
+            echo '<p class="nav"><a href="index.php">LOGOUT</a></p>';     
+        }
+    ?>
    
 
 

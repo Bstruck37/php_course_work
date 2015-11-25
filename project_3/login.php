@@ -1,27 +1,14 @@
-
 <?php
-    session_start(); $username = $password = $userError = $passError = '';
-    if(isset($_POST['sub'])) {
-        $username = $_POST['username']; 
-        $password = $_POST['password'];
-        
-        if($username === 'Bstruck' && $password === 'stocktruck5') {
-            $_SESSION['login'] = true; header('LOCATION:admin.php'); die();
-        }
-        if (($username !== 'Bstruck')  && ($password !== 'stocktruck5')) {
-            echo "Incorrect Username or Password";
-        }
-    }    
+  // User name and password for authentication
+  $username = 'Bstruck37';
+  $password = 'stocktruck5';
+
+  if (!isset($_SERVER['PHP_AUTH_USER']) || !isset($_SERVER['PHP_AUTH_PW']) ||
+    ($_SERVER['PHP_AUTH_USER'] != $username) || ($_SERVER['PHP_AUTH_PW'] != $password)) {
+    // The user name/password are incorrect so send the authentication headers
+    header('HTTP/1.1 401 Unauthorized');
+    header('WWW-Authenticate: Basic realm="Guitar Wars"');
+    exit('<h2>Guitar Wars</h2>Sorry, you must enter a valid user name and password to access this page.');
+  }
 ?>  
 
-<body>
-    <form name='input' action='{$_SERVER['PHP_SELF']}' method='post'>
-        <label for='username'>Username: </label>
-            <input type='text' value='$username' id='username' name='username' />
-            <div class='error'>$userError</div>
-        <label for='password'>Password: </label>
-            <input type='password' value='$password' id='password' name='password' />
-            <div class='error'>$passError</div>
-        <input type='submit' value='Log In' name='sub' />
-    </form>
-</body>

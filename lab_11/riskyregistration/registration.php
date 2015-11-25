@@ -111,7 +111,7 @@
     $new_phone = preg_replace($pattern, $replacement, $phone);
     echo 'Your phone number has been registered as ' . $new_phone . '.</p>';
     
-    // code to insert data into the RiskyJobs database...
+    // code to insert data into the database...
   }
 ?>
 
