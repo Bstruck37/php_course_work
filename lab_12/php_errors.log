@@ -1,0 +1,6 @@
+[29-Nov-2015 00:30:08 UTC] PHP Fatal error:  Call to undefined function SHA() in /home/ubuntu/workspace/php_course_work/lab_12/guitarwars/captcha.php on line 16
+[29-Nov-2015 00:30:08 UTC] PHP Stack trace:
+[29-Nov-2015 00:30:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_12/guitarwars/captcha.php:0
+[29-Nov-2015 00:30:12 UTC] PHP Fatal error:  Call to undefined function SHA() in /home/ubuntu/workspace/php_course_work/lab_12/guitarwars/captcha.php on line 16
+[29-Nov-2015 00:30:12 UTC] PHP Stack trace:
+[29-Nov-2015 00:30:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_12/guitarwars/captcha.php:0
