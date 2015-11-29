@@ -1,5 +1,5 @@
 <?php
-  // Custom function to draw a bar graph given a data set, maximum value, and image filename
+  
   function draw_bar_graph($width, $height, $data, $max_value, $filename) {
     // Create the empty graph image
     $img = imagecreatetruecolor($width, $height);
@@ -110,7 +110,7 @@
         $mismatch_topics = array_slice($topics, 0);
         $mismatch_categories = array_slice($categories, 0);
       }
-    } // End of outer while loop
+    } 
 
     // Make sure a mismatch was found
     if ($mismatch_user_id != -1) {
@@ -164,9 +164,9 @@
 
         // Display a link to the mismatch user's profile
         echo '<h4>View <a href=viewprofile.php?user_id=' . $mismatch_user_id . '>' . $row['first_name'] . '\'s profile</a>.</h4>';
-      } // End of check for a single row of mismatch user results
-    } // End of check for a user mismatch
-  } // End of check for any questionnaire response results
+      } 
+    } 
+  } 
   else {
     echo '<p>You must first <a href="questionnaire.php">answer the questionnaire</a> before you can be mismatched.</p>';
   }
