@@ -11,8 +11,6 @@
     include('header.php');
 ?>
 
-
-<body>
     <p><h3>New Blog Entry</h3></p>
     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
         <p><label for="Blog_Title">Title:</label><br /><br />

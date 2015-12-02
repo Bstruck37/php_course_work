@@ -31,7 +31,4 @@
                 echo '<p class="nav"><a href="index.php">HOME</a></p>';     
             }
         ?>
-    </div>
 
-<!-- Page Content -->
-<div class="container">
