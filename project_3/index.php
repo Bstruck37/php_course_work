@@ -1,15 +1,9 @@
 <?php
-    // Add page header
-    include('header.php') 
-?>        
-
-<?php
     // Connect to database
-    include('db.php') 
-?>
+    include('db.php'); 
 
-
-<?php
+    // Add page header
+    include('header.php'); 
 
     // Connect to the database 
     $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME); 
@@ -27,9 +21,6 @@
         echo '<p class="text">' . $row['Blog_Entry'] . '</p>';
     }
 
-?>
-
-<?php
     // Add page footer
     include('footer.php') 
 ?>  
