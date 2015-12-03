@@ -29,8 +29,6 @@
         $Bentry = $_POST['Blog_Entry'];
         $date = date("Y-m-d");
 
-        // Connect to the database 
-        $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME); 
         
         // Check to make sure there is a title & entry then insert into database
         if (!empty($Btitle) && !empty($Bentry)) 
@@ -76,9 +74,6 @@ if (isset($_POST['submit2']))
     
     if (isset($fromDate) && isset($toDate)) 
     {
-    
-        // Connect to the database 
-        $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
         
         $result = mysqli_query($dbc, "DELETE FROM myblogs WHERE date BETWEEN '$fromDate' AND '$toDate'");
         

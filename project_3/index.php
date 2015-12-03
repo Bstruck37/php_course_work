@@ -5,10 +5,7 @@
     // Add page header
     include('header.php'); 
 
-    // Connect to the database 
-    $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME); 
-    
-    // Retrieve the blog data from MySQL
+        // Retrieve the blog data from MySQL
     $query = "SELECT * FROM myblogs ORDER BY date DESC";
     $data = mysqli_query($mysqli, $query);
 
