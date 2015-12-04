@@ -1,0 +1,33 @@
+[04-Dec-2015 16:57:43 UTC] PHP Warning:  simplexml_load_file(http://gdata.youtube.com/feeds/api/users/aliensabductedme/favorites): failed to open stream: HTTP request failed! HTTP/1.0 410 Gone
+ in /home/ubuntu/workspace/php_course_work/lab_13/aliens/youtube.php on line 6
+[04-Dec-2015 16:57:43 UTC] PHP Stack trace:
+[04-Dec-2015 16:57:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_13/aliens/index.php:0
+[04-Dec-2015 16:57:43 UTC] PHP   2. require_once() /home/ubuntu/workspace/php_course_work/lab_13/aliens/index.php:59
+[04-Dec-2015 16:57:43 UTC] PHP   3. simplexml_load_file() /home/ubuntu/workspace/php_course_work/lab_13/aliens/youtube.php:6
+[04-Dec-2015 16:57:43 UTC] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity "http://gdata.youtube.com/feeds/api/users/aliensabductedme/favorites" in /home/ubuntu/workspace/php_course_work/lab_13/aliens/youtube.php on line 6
+[04-Dec-2015 16:57:43 UTC] PHP Stack trace:
+[04-Dec-2015 16:57:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_13/aliens/index.php:0
+[04-Dec-2015 16:57:43 UTC] PHP   2. require_once() /home/ubuntu/workspace/php_course_work/lab_13/aliens/index.php:59
+[04-Dec-2015 16:57:43 UTC] PHP   3. simplexml_load_file() /home/ubuntu/workspace/php_course_work/lab_13/aliens/youtube.php:6
+[04-Dec-2015 16:58:19 UTC] PHP Warning:  simplexml_load_file(http://gdata.youtube.com/feeds/api/users/aliensabductedme/favorites): failed to open stream: HTTP request failed! HTTP/1.0 410 Gone
+ in /home/ubuntu/workspace/php_course_work/lab_13/aliens/youtube.php on line 6
+[04-Dec-2015 16:58:19 UTC] PHP Stack trace:
+[04-Dec-2015 16:58:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_13/aliens/index.php:0
+[04-Dec-2015 16:58:19 UTC] PHP   2. require_once() /home/ubuntu/workspace/php_course_work/lab_13/aliens/index.php:59
+[04-Dec-2015 16:58:19 UTC] PHP   3. simplexml_load_file() /home/ubuntu/workspace/php_course_work/lab_13/aliens/youtube.php:6
+[04-Dec-2015 16:58:19 UTC] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity "http://gdata.youtube.com/feeds/api/users/aliensabductedme/favorites" in /home/ubuntu/workspace/php_course_work/lab_13/aliens/youtube.php on line 6
+[04-Dec-2015 16:58:19 UTC] PHP Stack trace:
+[04-Dec-2015 16:58:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_13/aliens/index.php:0
+[04-Dec-2015 16:58:19 UTC] PHP   2. require_once() /home/ubuntu/workspace/php_course_work/lab_13/aliens/index.php:59
+[04-Dec-2015 16:58:19 UTC] PHP   3. simplexml_load_file() /home/ubuntu/workspace/php_course_work/lab_13/aliens/youtube.php:6
+[04-Dec-2015 16:59:39 UTC] PHP Warning:  simplexml_load_file(http://gdata.youtube.com/feeds/api/users/aliensabductedme/favorites): failed to open stream: HTTP request failed! HTTP/1.0 410 Gone
+ in /home/ubuntu/workspace/php_course_work/lab_13/aliens/youtube.php on line 6
+[04-Dec-2015 16:59:39 UTC] PHP Stack trace:
+[04-Dec-2015 16:59:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_13/aliens/index.php:0
+[04-Dec-2015 16:59:39 UTC] PHP   2. require_once() /home/ubuntu/workspace/php_course_work/lab_13/aliens/index.php:59
+[04-Dec-2015 16:59:39 UTC] PHP   3. simplexml_load_file() /home/ubuntu/workspace/php_course_work/lab_13/aliens/youtube.php:6
+[04-Dec-2015 16:59:39 UTC] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity "http://gdata.youtube.com/feeds/api/users/aliensabductedme/favorites" in /home/ubuntu/workspace/php_course_work/lab_13/aliens/youtube.php on line 6
+[04-Dec-2015 16:59:39 UTC] PHP Stack trace:
+[04-Dec-2015 16:59:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/lab_13/aliens/index.php:0
+[04-Dec-2015 16:59:39 UTC] PHP   2. require_once() /home/ubuntu/workspace/php_course_work/lab_13/aliens/index.php:59
+[04-Dec-2015 16:59:39 UTC] PHP   3. simplexml_load_file() /home/ubuntu/workspace/php_course_work/lab_13/aliens/youtube.php:6
