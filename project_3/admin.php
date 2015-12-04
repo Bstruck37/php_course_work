@@ -66,21 +66,23 @@
 if (isset($_POST['submit2'])) 
 {
 
-    $fromDate = $_POST['fromdate']; 
-    $toDate = $_POST['todate'];
+    $FromDate = $_POST['fromdate']; 
+    $ToDate = $_POST['todate'];
     
-    $fromDate = date('Y-m-d', strtotime(str_replace('-', '/', $fromDate)));
-    $toDate = date('Y-m-d', strtotime(str_replace('-', '/', $toDate)));
+    // Convert User input to MySQL date format
+    $FromDate = date('Y-m-d', strtotime(str_replace('-', '/', $FromDate)));
+    $ToDate = date('Y-m-d', strtotime(str_replace('-', '/', $ToDate)));
     
-    if (isset($fromDate) && isset($toDate)) 
+    if (isset($FromDate) && isset($ToDate)) 
     {
         
-        $result = mysqli_query($dbc, "DELETE FROM myblogs WHERE date BETWEEN '$fromDate' AND '$toDate'");
+        // Query to delete records
+        mysqli_query($mysqli, "DELETE FROM myblogs WHERE date BETWEEN '$FromDate' AND '$ToDate'");
         
-            echo '<h3>' . mysqli_affected_rows($dbc) . ' Entries have been deleted</h3>';
+            // Echo count of how many records were deleted
+            echo '<h3>' . mysqli_affected_rows($mysqli) . ' Entries have been deleted</h3>';
         
-        mysqli_close($dbc);
-        
+        mysqli_close($mysqli);
     }
 }
 

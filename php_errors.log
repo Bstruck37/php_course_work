@@ -1401,3 +1401,112 @@
 [02-Dec-2015 20:28:41 UTC] PHP Fatal error:  Call to a member function rowCount() on a non-object in /home/ubuntu/workspace/php_course_work/project_3/remove.php on line 41
 [02-Dec-2015 20:28:41 UTC] PHP Stack trace:
 [02-Dec-2015 20:28:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/remove.php:0
+[04-Dec-2015 13:21:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 79
+[04-Dec-2015 13:21:50 UTC] PHP Stack trace:
+[04-Dec-2015 13:21:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 13:21:50 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php_course_work/project_3/admin.php:79
+[04-Dec-2015 13:21:50 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 82
+[04-Dec-2015 13:21:50 UTC] PHP Stack trace:
+[04-Dec-2015 13:21:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 13:21:50 UTC] PHP   2. mysqli_affected_rows() /home/ubuntu/workspace/php_course_work/project_3/admin.php:82
+[04-Dec-2015 13:21:50 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 84
+[04-Dec-2015 13:21:50 UTC] PHP Stack trace:
+[04-Dec-2015 13:21:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 13:21:50 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/php_course_work/project_3/admin.php:84
+[04-Dec-2015 13:23:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 80
+[04-Dec-2015 13:23:17 UTC] PHP Stack trace:
+[04-Dec-2015 13:23:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 13:23:17 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php_course_work/project_3/admin.php:80
+[04-Dec-2015 13:23:17 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 83
+[04-Dec-2015 13:23:17 UTC] PHP Stack trace:
+[04-Dec-2015 13:23:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 13:23:17 UTC] PHP   2. mysqli_affected_rows() /home/ubuntu/workspace/php_course_work/project_3/admin.php:83
+[04-Dec-2015 13:23:17 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 85
+[04-Dec-2015 13:23:17 UTC] PHP Stack trace:
+[04-Dec-2015 13:23:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 13:23:17 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/php_course_work/project_3/admin.php:85
+[04-Dec-2015 13:25:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 80
+[04-Dec-2015 13:25:03 UTC] PHP Stack trace:
+[04-Dec-2015 13:25:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 13:25:03 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php_course_work/project_3/admin.php:80
+[04-Dec-2015 13:25:03 UTC] PHP Warning:  mysqli_query(): Empty query in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 81
+[04-Dec-2015 13:25:03 UTC] PHP Stack trace:
+[04-Dec-2015 13:25:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 13:25:03 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php_course_work/project_3/admin.php:81
+[04-Dec-2015 13:25:03 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 84
+[04-Dec-2015 13:25:03 UTC] PHP Stack trace:
+[04-Dec-2015 13:25:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 13:25:03 UTC] PHP   2. mysqli_affected_rows() /home/ubuntu/workspace/php_course_work/project_3/admin.php:84
+[04-Dec-2015 13:25:03 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 86
+[04-Dec-2015 13:25:03 UTC] PHP Stack trace:
+[04-Dec-2015 13:25:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 13:25:03 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/php_course_work/project_3/admin.php:86
+[04-Dec-2015 13:28:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 80
+[04-Dec-2015 13:28:34 UTC] PHP Stack trace:
+[04-Dec-2015 13:28:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 13:28:34 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php_course_work/project_3/admin.php:80
+[04-Dec-2015 13:28:34 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 84
+[04-Dec-2015 13:28:34 UTC] PHP Stack trace:
+[04-Dec-2015 13:28:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 13:28:34 UTC] PHP   2. mysqli_affected_rows() /home/ubuntu/workspace/php_course_work/project_3/admin.php:84
+[04-Dec-2015 13:28:34 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 86
+[04-Dec-2015 13:28:34 UTC] PHP Stack trace:
+[04-Dec-2015 13:28:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 13:28:34 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/php_course_work/project_3/admin.php:86
+[04-Dec-2015 13:29:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 80
+[04-Dec-2015 13:29:55 UTC] PHP Stack trace:
+[04-Dec-2015 13:29:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 13:29:55 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php_course_work/project_3/admin.php:80
+[04-Dec-2015 13:29:55 UTC] PHP Warning:  mysqli_query(): Empty query in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 81
+[04-Dec-2015 13:29:55 UTC] PHP Stack trace:
+[04-Dec-2015 13:29:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 13:29:55 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/php_course_work/project_3/admin.php:81
+[04-Dec-2015 13:29:55 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 85
+[04-Dec-2015 13:29:55 UTC] PHP Stack trace:
+[04-Dec-2015 13:29:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 13:29:55 UTC] PHP   2. mysqli_affected_rows() /home/ubuntu/workspace/php_course_work/project_3/admin.php:85
+[04-Dec-2015 13:29:55 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 87
+[04-Dec-2015 13:29:55 UTC] PHP Stack trace:
+[04-Dec-2015 13:29:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 13:29:55 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/php_course_work/project_3/admin.php:87
+[04-Dec-2015 13:30:31 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 85
+[04-Dec-2015 13:30:31 UTC] PHP Stack trace:
+[04-Dec-2015 13:30:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 13:30:31 UTC] PHP   2. mysqli_affected_rows() /home/ubuntu/workspace/php_course_work/project_3/admin.php:85
+[04-Dec-2015 13:30:31 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 87
+[04-Dec-2015 13:30:31 UTC] PHP Stack trace:
+[04-Dec-2015 13:30:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 13:30:31 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/php_course_work/project_3/admin.php:87
+[04-Dec-2015 13:31:05 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 85
+[04-Dec-2015 13:31:05 UTC] PHP Stack trace:
+[04-Dec-2015 13:31:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 13:31:05 UTC] PHP   2. mysqli_affected_rows() /home/ubuntu/workspace/php_course_work/project_3/admin.php:85
+[04-Dec-2015 13:31:42 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 85
+[04-Dec-2015 13:31:42 UTC] PHP Stack trace:
+[04-Dec-2015 13:31:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 13:31:42 UTC] PHP   2. mysqli_affected_rows() /home/ubuntu/workspace/php_course_work/project_3/admin.php:85
+[04-Dec-2015 14:14:04 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 85
+[04-Dec-2015 14:14:04 UTC] PHP Stack trace:
+[04-Dec-2015 14:14:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 14:14:04 UTC] PHP   2. mysqli_affected_rows() /home/ubuntu/workspace/php_course_work/project_3/admin.php:85
+[04-Dec-2015 14:15:08 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 80
+[04-Dec-2015 14:15:08 UTC] PHP Stack trace:
+[04-Dec-2015 14:15:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 14:15:36 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 80
+[04-Dec-2015 14:15:36 UTC] PHP Stack trace:
+[04-Dec-2015 14:15:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 14:16:33 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 80
+[04-Dec-2015 14:16:33 UTC] PHP Stack trace:
+[04-Dec-2015 14:16:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 14:17:03 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 80
+[04-Dec-2015 14:17:03 UTC] PHP Stack trace:
+[04-Dec-2015 14:17:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 14:17:11 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 80
+[04-Dec-2015 14:17:11 UTC] PHP Stack trace:
+[04-Dec-2015 14:17:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 14:18:21 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 80
+[04-Dec-2015 14:18:21 UTC] PHP Stack trace:
+[04-Dec-2015 14:18:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
+[04-Dec-2015 14:18:29 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/php_course_work/project_3/admin.php on line 80
+[04-Dec-2015 14:18:29 UTC] PHP Stack trace:
+[04-Dec-2015 14:18:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_course_work/project_3/admin.php:0
